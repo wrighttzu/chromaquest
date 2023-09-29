@@ -1,13 +1,11 @@
-import { StatusBar, View } from 'react-native';
-import Navigator from "./src/AppContainer";
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import AppContainer from "./src/AppContainer";
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <>
-      <View>
-        <StatusBar/>
-      </View>
-      <Navigator/>
-    </>
+    <AppContainer/>
   );
 }
