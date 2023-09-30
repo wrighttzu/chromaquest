@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 export const settingsSliderRed = createSlice({
   name: "settingsSliderRed",
   initialState: {
-    R: 127,
-    G: 127,
-    B: 127,
+    R: 100,
+    G: 200,
+    B: 220,
   },
   reducers: {
     updateSliderRed: (state, action) => {
