@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/slider": "^4.4.3",
     "@react-navigation/stack": "^6.3.16",
     "@types/expo": "^33.0.1",
     "@types/expo__vector-icons": "^10.0.0",
