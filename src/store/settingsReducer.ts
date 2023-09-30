@@ -8,14 +8,14 @@ export const settingsSliderRed = createSlice({
     B: 127,
   },
   reducers: {
-    updateSliderRed: (state, props) => {
-      return { ...state, R: props.payload };
+    updateSliderRed: (state, action) => {
+      return { ...state, R: action.payload };
     },
-    updateSliderGreen: (state, props) => {
-      return { ...state, G: props.payload };
+    updateSliderGreen: (state, action) => {
+      return { ...state, G: action.payload };
     },
-    updateSliderBlue: (state, props) => {
-      return { ...state, B: props.payload };
+    updateSliderBlue: (state, action) => {
+      return { ...state, B: action.payload };
     },
   },
 });
