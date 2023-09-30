@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import { settingsSliderRed } from './settingsReducer';
+import { settingsSlider } from './settingsReducer';
 
 const rootReducer = combineReducers({
-    settings: settingsSliderRed.reducer
+    settings: settingsSlider.reducer
   });
   
   export type RootState = ReturnType<typeof rootReducer>;

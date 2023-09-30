@@ -22,7 +22,6 @@ const HomeScreen: React.FC = () => {
       <Button title="New Game" nav={`NewGame`} />
       <Button title="Settings" nav={"Settings"} />
       <Button title="About" nav={"About"} />
-      <Text className="m-10">Welcome to the home screen!</Text>
     </View>
   );
 };

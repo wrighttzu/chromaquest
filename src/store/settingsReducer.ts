@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const settingsSliderRed = createSlice({
-  name: "settingsSliderRed",
+export const settingsSlider = createSlice({
+  name: "settingsSlider",
   initialState: {
     R: 100,
     G: 200,
@@ -22,6 +22,6 @@ export const settingsSliderRed = createSlice({
 
 // Action creators are generated for each case reducer function
 export const { updateSliderRed, updateSliderGreen, updateSliderBlue } =
-  settingsSliderRed.actions;
+  settingsSlider.actions;
 
-export default settingsSliderRed.reducer;
+export default settingsSlider.reducer;
