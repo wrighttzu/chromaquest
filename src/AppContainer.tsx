@@ -9,7 +9,7 @@ import About from "./screens/About";
 const AppStack = createStackNavigator();
 const AppStackNavigator = () => {
   return (
-    <AppStack.Navigator screenOptions={{ headerShown: true }}>
+    <AppStack.Navigator screenOptions={{ headerShown: false }}>
       <AppStack.Screen name="Home" component={HomeScreen}/>
       <AppStack.Screen name="Settings" component={Settings}/>
       <AppStack.Screen name="About" component={About}/>
