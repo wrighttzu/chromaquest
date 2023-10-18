@@ -19,7 +19,7 @@ const HomeScreen: React.FC = () => {
       }}
       className=" h-screen flex items-center justify-center"
     >
-      <Button title="New Game" nav={`NewGame`} />
+      <Button title="New Game" nav={"NewGame"} />
       <Button title="Settings" nav={"Settings"} />
       <Button title="About" nav={"About"} />
     </View>

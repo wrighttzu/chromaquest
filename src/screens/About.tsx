@@ -1,6 +1,5 @@
 import React from "react";
 import { Text, View } from "react-native";
-import Button from "../components/button";
 import { rgbToHex } from "../utils/colorMath";
 import { useSelector } from "react-redux";
 import { RootState } from "../store/store";
@@ -18,7 +17,7 @@ const About: React.FC = () => {
       }}
       className=" h-screen flex items-center justify-center"
     >
-      <Text className="m-10">
+      <Text className="m-10 text-justify text-xl">
         In the enchanting realm of Chromatica, colors have mysteriously faded,
         plunging the land into grayscale gloom. Legends speak of a powerful
         artifact, the Chroma Crystal, shattered into RGB fragments, scattering
