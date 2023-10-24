@@ -38,34 +38,30 @@ const Settings: React.FC = () => {
       >
         Welcome to the Settings screen! {"\n"} Choose the background color
       </Text>
-      <Text 
-      style={{
-        color: `${rgbToHex(
-          backgroundColor.R,
-          0,
-          0
-        )}`,
-      }}
-      className="text-lg">Red - {backgroundColor.R} </Text>
-      <Text 
-      style={{
-        color: `${rgbToHex(
-          0,
-          backgroundColor.G,
-          0
-        )}`,
-        
-      }}
-      className="text-lg">Green - {backgroundColor.G} </Text>
       <Text
-      style={{
-        color: `${rgbToHex(
-          0,
-          0,
-          backgroundColor.B,
-        )}`,
-      }}
-       className="text-lg">Blue - {backgroundColor.B} </Text>
+        style={{
+          color: `${rgbToHex(backgroundColor.R, 0, 0)}`,
+        }}
+        className="text-lg"
+      >
+        Red - {backgroundColor.R}{" "}
+      </Text>
+      <Text
+        style={{
+          color: `${rgbToHex(0, backgroundColor.G, 0)}`,
+        }}
+        className="text-lg"
+      >
+        Green - {backgroundColor.G}{" "}
+      </Text>
+      <Text
+        style={{
+          color: `${rgbToHex(0, 0, backgroundColor.B)}`,
+        }}
+        className="text-lg"
+      >
+        Blue - {backgroundColor.B}{" "}
+      </Text>
       <Slider
         style={{ width: 200, height: 40 }}
         minimumValue={0}
