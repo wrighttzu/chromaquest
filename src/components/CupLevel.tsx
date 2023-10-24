@@ -5,10 +5,9 @@ import { updateCupSliderBlue, updateCupSliderGreen, updateCupSliderRed } from ".
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../store/store";
 
-export default function CupLevel() {
+const CupLevel = () => {
   const cuplevel = useSelector((state: RootState) => state.cuplevel);
   const dispatch = useDispatch();
-  console.log(cuplevel);
 
   return (
     <>  
@@ -54,3 +53,5 @@ export default function CupLevel() {
     </>
   );
 }
+
+export default CupLevel;
