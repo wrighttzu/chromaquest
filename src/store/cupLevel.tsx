@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 export const cupLevel = createSlice({
   name: "cupLevel",
   initialState: {
-    R: 100,
-    G: 100,
-    B: 100,
+    R: 127,
+    G: 127,
+    B: 127,
   },
   reducers: {
     updateCupSliderRed: (state, action) => {

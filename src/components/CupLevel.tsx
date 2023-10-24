@@ -21,7 +21,7 @@ const CupLevel = () => {
             minimumTrackTintColor="#003399"
             maximumTrackTintColor="#000066"
             onValueChange={(value) => dispatch(updateCupSliderRed(value))}
-            value={123}
+            value={cuplevel.R}
             step={1}
           />
         </View>
@@ -33,7 +33,7 @@ const CupLevel = () => {
             minimumTrackTintColor="#003399"
             maximumTrackTintColor="#000066"
             onValueChange={(value) => dispatch(updateCupSliderGreen(value))}
-            value={123}
+            value={cuplevel.G}
             step={1}
           />
         </View>
@@ -45,7 +45,7 @@ const CupLevel = () => {
             minimumTrackTintColor="#003399"
             maximumTrackTintColor="#000066"
             onValueChange={(value) => dispatch(updateCupSliderBlue(value))}
-            value={123}
+            value={cuplevel.B}
             step={1}
           />
         </View>
