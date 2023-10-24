@@ -21,7 +21,7 @@ const Game = () => {
       )}`,
     }}
      className=" flex flex-col w-full h-full">
-      <View className="basis-3/6">
+      <View className="basis-3/6 border-2 border-[#ffffff]">
         <Scene />
       </View>
       <View className="basis-2/6">
